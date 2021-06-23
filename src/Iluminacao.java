@@ -1,4 +1,12 @@
 public class Iluminacao extends LojaConstrucao{
+    public int getTempLuz() {
+        return tempLuz;
+    }
+
+    public void setTempLuz(int tempLuz) {
+        this.tempLuz = tempLuz;
+    }
+
     private int tempLuz;
 
 
